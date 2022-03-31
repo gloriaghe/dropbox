@@ -12,7 +12,7 @@ body{
 /* regole generali */
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -22,10 +22,14 @@ body{
     clear: both;
 }
 
+h2{
+    font-size: 45px;
+}
+
 /* header */
 
 header{
-    height: 750px;
+    height: 770px;
     background-color: #B4D0E7;
 }
 
@@ -73,7 +77,7 @@ header nav ul li a{
     padding-right: 10%;
 }
 #jumbotext p{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 #jumbotron img{
@@ -101,17 +105,21 @@ header nav ul li a{
 /* sezione piano pagamenti */
 
 #blocco-pagamenti{
-    margin-top: 50px;
+    padding-top: 80px;
 }
 
 .piani-flottati{
     width: calc(90% / 3);
     float: left;
-    border: 1px black solid;
+    border: 1px rgb(252, 214, 214) solid;
     height: 1300px;
-    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
 }
+.spiegazionepiani{
+    padding: 30px;
 
+}
 #pianoflotdx{
     margin-left: 0%;
 }
@@ -149,7 +157,18 @@ header nav ul li a{
 .piani-flottati span{
     display: block;
     padding: 20px 0;
+    
 }
+
+.piani-flottati span:first-child{
+    border-bottom: 1px rgb(252, 214, 214) solid;
+    text-align: center;
+}
+#blocco-pagamenti h2{
+    margin-top: 100px;
+}
+
+
 
 /* sezione partner */
 
