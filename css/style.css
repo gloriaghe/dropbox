@@ -81,3 +81,19 @@ header nav{
     background-color: blueviolet;
     height: 300px;
 }
+
+/* <!-- sezione blocchi flottati in left --> */
+
+#sectionblocchileft{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.bloccoleft{
+    float: left;
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px black solid;
+    height: 250px;
+}
+
