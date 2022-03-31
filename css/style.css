@@ -114,7 +114,7 @@ header nav ul li a{
     border: 1px rgb(252, 214, 214) solid;
     height: 1300px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 .spiegazionepiani{
     padding: 30px;
@@ -156,8 +156,8 @@ header nav ul li a{
 
 .piani-flottati span{
     display: block;
-    padding: 20px 0;
-    
+    padding: 15px 0;
+
 }
 
 .piani-flottati span:first-child{
@@ -168,6 +168,11 @@ header nav ul li a{
     margin-top: 100px;
 }
 
+.h3piani{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
 
 
 /* sezione partner */
