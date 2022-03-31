@@ -134,3 +134,12 @@ border: 2px solid red;
 .bordato{
    border: 10px solid rgb(217, 230, 197); 
 }
+
+/* <!-- sezione prova gratuita con testo --> */
+
+#prova-gratis{
+    background-color: #B4D0E7;
+    height: 300px;
+}
+
+/* sezione faq */
