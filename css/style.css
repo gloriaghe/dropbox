@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 /* regole generali */
 
@@ -21,10 +23,10 @@ body{
 }
 
 /* header */
+
 header{
-    /* debug */
+    height: 750px;
     background-color: #B4D0E7;
-    height: 500px;
 }
 
 nav{
@@ -39,7 +41,6 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: bolder;
 }
 
 .nav-left{
@@ -53,11 +54,47 @@ header nav ul li a{
 /* jumbotron */
 
 #jumbotron{
-    width: 60%;
+    width: 83%;
     height: 450px;
-    /* debug */
-    background-color: pink;
 }
+
+#jumbotron h1{
+    font-size: 4.6em;
+    width: 100%;
+    margin: 60px 0;
+}
+
+.jumbocolonne{
+    float: left;
+}
+
+#jumbotext{
+    width: 40%;
+    padding-right: 10%;
+}
+#jumbotext p{
+    padding-bottom: 30px;
+}
+
+#jumbotron img{
+    object-fit: cover;
+    width: 60%;
+}
+#jumbotron .button{
+    text-decoration: none;
+}
+
+#jumbotext div{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+#jumbotext i{
+    color: black;
+    font-size: xx-large;
+}
+
 
 /* sezioni principali */
 
