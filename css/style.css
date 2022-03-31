@@ -27,11 +27,30 @@ header{
     height: 500px;
 }
 
-header nav{
-    height: 30px;
-    /* debug */
+nav{
     background-color: white;
 }
+
+header nav ul li{
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
+/* jumbotron */
 
 #jumbotron{
     width: 60%;
@@ -161,4 +180,12 @@ footer{
     float: left;
     width: 20%;
     padding-top: 30px;
+}
+
+/* bottoni */
+
+.button{
+    background-color: blue;
+    padding: 8px 15px;
+    color: white;
 }
