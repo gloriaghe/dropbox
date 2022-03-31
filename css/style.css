@@ -72,3 +72,12 @@ header nav{
      /* drbug */
      height: 130px;
  }
+
+/* sezione partner */
+
+#partnersection{
+    margin-top: 20px;
+    /* debug */
+    background-color: blueviolet;
+    height: 300px;
+}
