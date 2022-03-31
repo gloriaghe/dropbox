@@ -7,3 +7,68 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* regole generali */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+header{
+    /* debug */
+    background-color: #B4D0E7;
+    height: 500px;
+}
+
+header nav{
+    height: 30px;
+    /* debug */
+    background-color: white;
+}
+
+#jumbotron{
+    width: 60%;
+    height: 450px;
+    /* debug */
+    background-color: pink;
+}
+
+/* sezioni principali */
+
+/* sezione piano pagamenti */
+
+#blocco-pagamenti{
+    margin-top: 50px;
+}
+
+.piani-flottati{
+    width: calc(90% / 3);
+    float: left;
+    border: 1px black solid;
+
+    /* debug */
+    height: 300px;
+}
+
+#pianoflotdx{
+    margin-left: 0%;
+}
+
+#pianoflotsx,  #pianoflotcentro{
+    margin-right: 5%;
+}
+
+ #pianoflotbasso{
+     border: 1px black solid;
+     margin-top: 20px;
+     display: block;
+     /* drbug */
+     height: 130px;
+ }
