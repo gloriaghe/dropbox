@@ -97,3 +97,40 @@ margin-bottom: 50px;
     height: 250px;
 }
 
+
+/* sezione blocchi colorati */
+
+#blocchicolorati{
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+.square{
+    width: 230px;
+    height: 230px;
+/* debug */
+border: 2px solid red;
+}
+
+.squareleft{
+    float: left;
+}
+
+.squareright{
+    float: right;
+}
+
+#bloccocentrale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#designit{
+    background-color: #A2D39B;
+}
+
+.bordato{
+   border: 10px solid rgb(217, 230, 197); 
+}
