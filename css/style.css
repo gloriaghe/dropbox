@@ -108,9 +108,8 @@ header nav ul li a{
     width: calc(90% / 3);
     float: left;
     border: 1px black solid;
-
-    /* debug */
-    height: 300px;
+    height: 1300px;
+    padding: 30px;
 }
 
 #pianoflotdx{
@@ -128,6 +127,29 @@ header nav ul li a{
      /* drbug */
      height: 130px;
  }
+
+ #check{
+     margin: 40px 0;
+ }
+ #checkblue{
+    border: 5px solid blue;
+ }
+ .checkbox{
+     border: 1px solid rgb(124, 88, 94);
+     border-radius: 50%;
+     height: 20px;
+     width: 20px;
+     display: inline-block;
+ }
+
+.testocheck{
+    margin-right: 20px;
+}
+
+.piani-flottati span{
+    display: block;
+    padding: 20px 0;
+}
 
 /* sezione partner */
 
