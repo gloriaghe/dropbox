@@ -114,7 +114,7 @@ header nav ul li a{
     border: 1px rgb(252, 214, 214) solid;
     font-size: 15px;
     font-weight: lighter;
-    padding-bottom: 90px;
+    min-height: 380px;
 }
 
 .spiegazionepiani{
@@ -305,8 +305,11 @@ margin-bottom: 50px;
 
 /* blocchi */
 #blocchicolorati{
-    position: relative;
     background-color: #F5F5F5;
+}
+.blocchi-laterali{
+    width: 30%;
+    float: left;
 }
 
 .square{
@@ -371,12 +374,10 @@ margin-bottom: 50px;
 /* testo blocchi colorati */
 
 #bloccocentrale {
-    width: 35%;
+    width: 40%;
     padding: 30px 50px 0 50px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    float: left;
 }
 
 #bloccocentrale img{
