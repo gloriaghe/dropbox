@@ -334,6 +334,7 @@ margin-bottom: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 #designit{
@@ -473,6 +474,12 @@ footer h3 a{
 
 #bordo-footer{
 border-bottom: 1px solid white;
+}
+
+#fondo-footer {
+    margin-top: 40px;
+    color: #ccc;
+    font-size: 15px;
 }
 /* bottoni */
 
