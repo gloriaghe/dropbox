@@ -194,6 +194,36 @@ header nav ul li a{
     margin: 25px 0;
 }
 
+/* piano pagamenti basso */
+
+#pianoflotbasso{
+    border: 1px rgb(252, 214, 214) solid;
+    height: 230px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#pianoflotbasso div:first-child{
+    padding: 20px 0;
+    text-align: center;
+}
+
+#pianoflotbasso .spiegazionepiani{
+    padding: 30px 30px;
+}
+#bordinopianobasso{
+    border-bottom: 1px rgb(252, 214, 214) solid;
+}
+
+#h3pianobasso{
+    display: inline-block;
+}
+#pianoflotbasso .buttonpagamenti{
+    float: right;
+}
+#pianoflotbasso h4{
+    margin-bottom: 25px;
+}
 /* sezione partner */
 
 #partnersection{
@@ -202,6 +232,8 @@ header nav ul li a{
     background-color: blueviolet;
     height: 300px;
 }
+
+
 
 /* <!-- sezione blocchi flottati in left --> */
 
@@ -287,7 +319,7 @@ footer{
 /* bottoni */
 
 .button{
-    background-color: rgb(56, 56, 247);
+    background-color: #0061FF;
     padding: 8px 15px;
     color: white;
 }
