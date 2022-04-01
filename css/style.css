@@ -112,10 +112,11 @@ header nav ul li a{
     width: calc(90% / 3);
     float: left;
     border: 1px rgb(252, 214, 214) solid;
-    height: 1000px;
     font-size: 15px;
     font-weight: lighter;
+    padding-bottom: 90px;
 }
+
 .spiegazionepiani{
     padding: 30px;
 
