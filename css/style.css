@@ -136,13 +136,15 @@ header nav ul li a{
      height: 130px;
  }
 
- #check{
+ #radio{
      margin: 40px 0;
  }
- #checkblue{
+
+ #radioblue{
     border: 5px solid blue;
  }
- .checkbox{
+
+ .radiobox{
      border: 1px solid rgb(124, 88, 94);
      border-radius: 50%;
      height: 20px;
@@ -150,7 +152,7 @@ header nav ul li a{
      display: inline-block;
  }
 
-.testocheck{
+.testoradio{
     margin-right: 20px;
 }
 
@@ -172,6 +174,18 @@ header nav ul li a{
     font-size: 25px;
     font-weight: bolder;
     margin-bottom: 20px;
+}
+
+.buttonpagamenti{
+    text-decoration: none;
+}
+
+.checkblue{
+    color: #0061FF;
+}
+
+.linkblue{
+    color: #0061FF;
 }
 
 
@@ -268,7 +282,7 @@ footer{
 /* bottoni */
 
 .button{
-    background-color: blue;
+    background-color: rgb(56, 56, 247);
     padding: 8px 15px;
     color: white;
 }
