@@ -415,7 +415,7 @@ margin-bottom: 50px;
 /* sezione faq */
 
 #faq{
-    height: 700px;
+    margin-bottom: 150px;
 }
 
 #faq h2{
@@ -455,9 +455,25 @@ footer{
 #grigliafooter section{
     float: left;
     width: 20%;
-    padding-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
+footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+footer h3 a{
+    font-size: larger;
+}
+
+#bordo-footer{
+border-bottom: 1px solid white;
+}
 /* bottoni */
 
 .button{
