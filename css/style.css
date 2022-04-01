@@ -279,7 +279,7 @@ margin-bottom: 50px;
 
 #sectionblocchileft h3{
     padding-bottom: 20px;
-} 
+}
 
 
 /* sezione blocchi colorati */
@@ -323,7 +323,7 @@ margin-bottom: 50px;
 }
 
 .bordato{
-   border: 10px solid rgb(217, 230, 197); 
+   border: 10px solid rgb(217, 230, 197);
 }
 
 .blocchi-laterali img{
@@ -340,7 +340,7 @@ margin-bottom: 50px;
 }
 
 #ASU{
-    background-color: #61082B;   
+    background-color: #61082B;
 }
 
 #Hearst{
@@ -398,7 +398,7 @@ margin-bottom: 50px;
     float: left;
     width: 50%;
     margin-top: 140px;
-    color: #61082B; 
+    color: #61082B;
 }
 
 #prova-gratis a{
@@ -414,8 +414,33 @@ margin-bottom: 50px;
 /* sezione faq */
 
 #faq{
-    /* debug */
-    height: 500px;
+    height: 700px;
+}
+
+#faq h2{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(252, 214, 214);
+}
+
+#faq h4{
+    float: left;
+    width: 60%;
+}
+
+#faq i{
+    padding-left: 90%;
+}
+
+#faq span{
+    float: left;
+    width: 40%;
+}
+
+#faq h4, span{
+    border-bottom: 1px solid rgb(252, 214, 214);
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 /* footer */
