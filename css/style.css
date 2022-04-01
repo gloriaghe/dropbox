@@ -512,7 +512,10 @@ border-bottom: 1px solid white;
 #tendinaufficio:hover #contatti a{
     display: block;
     margin-bottom: 10px;
+    color: black;
+    font-size: small;
 }
+
 #contatti{
     display: none;
 }
