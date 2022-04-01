@@ -426,6 +426,9 @@ margin-bottom: 50px;
 #faq h4{
     float: left;
     width: 60%;
+    border-bottom: 1px solid rgb(252, 214, 214);
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 #faq i{
@@ -435,9 +438,6 @@ margin-bottom: 50px;
 #faq span{
     float: left;
     width: 40%;
-}
-
-#faq h4, span{
     border-bottom: 1px solid rgb(252, 214, 214);
     padding-top: 40px;
     padding-bottom: 30px;
