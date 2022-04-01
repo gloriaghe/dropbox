@@ -12,7 +12,7 @@ body{
 /* regole generali */
 
 .container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ header nav ul li a{
     width: calc(90% / 3);
     float: left;
     border: 1px rgb(252, 214, 214) solid;
-    height: 1300px;
+    height: 1000px;
     font-size: 15px;
     font-weight: lighter;
 }
@@ -188,6 +188,11 @@ header nav ul li a{
     color: #0061FF;
 }
 
+.bordino{
+    border: 1px solid rgb(252, 214, 214);
+    width: 50px;
+    margin: 25px 0;
+}
 
 /* sezione partner */
 
