@@ -259,17 +259,29 @@ padding-right: 20px;
 /* <!-- sezione blocchi flottati in left --> */
 
 #sectionblocchileft{
-margin-top: 50px;
+margin-top: 80px;
 margin-bottom: 50px;
 }
 
 .bloccoleft{
     float: left;
     width: calc(100% / 3);
-    /* debug */
-    border: 1px black solid;
-    height: 250px;
+    padding: 30px 40px;
 }
+
+#sectionblocchileft h2{
+    padding-bottom: 30px;
+}
+
+#sectionblocchileft div img{
+    object-fit: contain;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#sectionblocchileft h3{
+    padding-bottom: 20px;
+} 
 
 
 /* sezione blocchi colorati */
