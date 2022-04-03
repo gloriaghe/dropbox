@@ -434,8 +434,7 @@ margin-bottom: 50px;
 }
 
 #faq h4{
-    float: left;
-    width: 60%;
+    width: 100%;
     border-bottom: 1px solid rgb(252, 214, 214);
     padding-top: 40px;
     padding-bottom: 30px;
@@ -445,13 +444,7 @@ margin-bottom: 50px;
     padding-left: 90%;
 }
 
-#faq span{
-    float: left;
-    width: 40%;
-    border-bottom: 1px solid rgb(252, 214, 214);
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
+
 
 /* footer */
 
@@ -499,14 +492,16 @@ border-bottom: 1px solid white;
 
 /* menù a tendina nav */
 
+
+
 #tendinaufficio:hover #contatti{
     display: block;
     position: absolute;
     z-index:100;
-    width:150px;
+    min-width:100px;
     padding: 20px;
-    border:1px solid black;
     background: white;
+    min-width: 160px;
 }
 
 #tendinaufficio:hover #contatti a{
@@ -514,8 +509,36 @@ border-bottom: 1px solid white;
     margin-bottom: 10px;
     color: black;
     font-size: small;
+    text-align: left;
 }
 
 #contatti{
     display: none;
 }
+
+/* accordion faq */
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 6em;
+}
+
+.accordion-item-content, .accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+
+.accordion {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.accordion .accordion-item {
+  background-image: yellow;
+  padding: 1em;
+  color: black;
+}
+.accordion h4 {
+    margin: 0;
+  }
