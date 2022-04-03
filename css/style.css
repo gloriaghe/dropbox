@@ -491,20 +491,19 @@ border-bottom: 1px solid white;
 }
 
 /* menù a tendina nav */
-
-
-
-#tendinaufficio:hover #contatti{
+/* contatti */
+.tendina:hover .link-tendina{
     display: block;
     position: absolute;
     z-index:100;
-    min-width:100px;
     padding: 20px;
     background: white;
     min-width: 160px;
 }
-
-#tendinaufficio:hover #contatti a{
+.tendina:hover .link-tendina strong{
+    margin-top: 10px;
+}
+.tendina:hover .link-tendina a{
     display: block;
     margin-bottom: 10px;
     color: black;
@@ -512,9 +511,12 @@ border-bottom: 1px solid white;
     text-align: left;
 }
 
-#contatti{
+.link-tendina{
     display: none;
 }
+
+
+/* supporto */
 
 /* accordion faq */
 
