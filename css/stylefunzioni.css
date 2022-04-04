@@ -27,6 +27,7 @@ header{
     width: 60%;
     padding-top: 70px;
     padding-bottom: 70px;
+    margin: auto;
 }
 
 #titolo-prova, #text-prova{
@@ -36,7 +37,7 @@ header{
 }
 
 #titolo-prova h2{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #titolo-prova{
@@ -51,3 +52,21 @@ header{
     padding-right: 0px;
     float: right;
 }
+
+/*  sezione colonne funzione*/
+
+#colonne-container{
+    width: 60%;
+    margin: auto;
+}
+.bloccoleft-funzione{
+    width: calc(100% / 3);
+    margin: 50px 0 30px 0;
+    padding-right: 50px;
+    float: left;
+}
+
+.bloccoleft-funzione h4{
+    padding-bottom: 20px;
+}
+
