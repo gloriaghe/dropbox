@@ -70,3 +70,31 @@ header{
     padding-bottom: 20px;
 }
 
+/* sezione team produttivo */
+
+/* sezione prova gratuita con testo */
+#prova-gratis-funzione{
+    background-color: #0d2481;
+    height: 380px;
+}
+
+#prova-gratis-funzione h2, #prova-gratis-funzione #button-provagratis{
+    margin-top: 140px;
+}
+
+#prova-gratis-funzione #button-provagratis{
+    float: right;
+}
+
+#prova-gratis-funzione h2{
+    float: left;
+    color: #ffcb95;
+    width: 50%;
+}
+
+#prova-gratis-funzione a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-right: 0;
+}
