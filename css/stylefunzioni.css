@@ -1,8 +1,9 @@
+/* header */
 header{
     background: none;
     height: auto;
 }
-
+/* immagine header */
 #videofalso{
     width: 100vw;
     position: relative;
@@ -18,4 +19,35 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* sezione prova */
+
+#prova-gratis-funzioni{
+    width: 60%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#titolo-prova, #text-prova{
+    width: 40%;
+   
+    margin: auto;
+}
+
+#titolo-prova h2{
+    padding-bottom: 30px;
+}
+
+#titolo-prova{
+    margin-right: 10%;
+    float: left;
+}
+#titolo-prova a{
+    text-decoration: none;
+}
+
+#text-prova{
+    padding-right: 0px;
+    float: right;
 }
