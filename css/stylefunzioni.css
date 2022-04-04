@@ -1,5 +1,6 @@
 header{
     background: none;
+    height: auto;
 }
 
 #videofalso{
@@ -9,9 +10,10 @@ header{
 
 #videofalso #video{
     width: 100%;
-
 }
+
 #button-video{
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
