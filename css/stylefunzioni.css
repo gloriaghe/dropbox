@@ -26,7 +26,7 @@ header{
 #prova-gratis-funzioni{
     width: 60%;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     margin: auto;
 }
 
@@ -71,9 +71,42 @@ header{
 }
 
 /* sezione team produttivo */
+#titolo-team{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.colonne-team{
+    float: left;
+    width: 25%;
+}
+
+.colonne-team h4{
+margin: 20px 0;
+}
+
+.colonne-team span{
+    margin-bottom: 20px;
+    display: block;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+.colonne-team a{
+    color: black;
+}
+
+.colonne-team img{
+    object-fit: cover;
+}
 
 /* sezione prova gratuita con testo */
+
 #prova-gratis-funzione{
+    margin-top: 90px;
     background-color: #0d2481;
     height: 380px;
 }
@@ -83,7 +116,8 @@ header{
 }
 
 #prova-gratis-funzione #button-provagratis{
-    float: right;
+    float: left;
+    padding-left: 50px;
 }
 
 #prova-gratis-funzione h2{
