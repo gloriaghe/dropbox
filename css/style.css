@@ -66,7 +66,8 @@ header nav ul li a{
 #jumbotron{
     padding-top:110px;
     width: 83%;
-    height: 480px;
+    min-height: 480px;
+    bottom: -80px;
 }
 
 #jumbotron h1{
@@ -121,7 +122,7 @@ header nav ul li a{
     border: 1px #ccc solid;
     font-size: 15px;
     font-weight: lighter;
-    min-height: 380px;
+    min-height: 950px;
 }
 
 .spiegazionepiani{
@@ -241,9 +242,9 @@ header nav ul li a{
 }
 
 #partnersection img{
-object-fit: cover;
-width: 60%;
-padding-right: 20px;
+    object-fit: cover;
+    width: 60%;
+    padding-right: 20px;
 }
 
 #textpartner{
@@ -280,8 +281,7 @@ margin-bottom: 50px;
 }
 
 #sectionblocchileft div img{
-    object-fit: contain;
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 20px;
 }
 
@@ -318,10 +318,14 @@ margin-bottom: 50px;
 
 #blocco-right{
     float: right;
+    /* height: 30vh;
+    width: 30vw; */
 }
 
 #blocco-left{
     float: left;
+    /* height: 30vh;
+    width: 30vw; */
 }
 
 
@@ -388,9 +392,11 @@ margin-bottom: 50px;
 
 #bloccocentrale {
     max-width: 550px;
+/* width: calc(100% - 60vw); */
     padding: 30px 50px 0 50px;
     vertical-align: middle;
     float: left;
+    /* overflow-y: auto; */
 }
 
 #bloccocentrale img{
