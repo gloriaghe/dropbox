@@ -433,17 +433,18 @@ margin-bottom: 50px;
     margin-bottom: 150px;
 }
 
-#faq h2{
+#faq h3{
+    font-size: 30px;   
     padding-top: 60px;
     padding-bottom: 50px;
-    border-bottom: 1px solid rgb(252, 214, 214);
+    border-bottom: 1px solid #ccc;
 }
 
 #faq h4{
-    width: 100%;
-    border-bottom: 1px solid rgb(252, 214, 214);
-    padding-top: 40px;
-    padding-bottom: 30px;
+    /* width: 100%; */
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #faq i{
